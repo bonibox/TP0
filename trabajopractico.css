@@ -1,0 +1,107 @@
+body {
+  background: white;
+  width: auto;
+  margin: 10px;
+}
+
+.trabajo {
+  width: auto%;
+  display: block;
+  }
+
+.resto {
+  width: 100%;
+  text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+       }
+
+.mail {
+  font-family: 'Pacifico', cursive;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0;
+  display: inline-block;
+  }
+
+.iconos {
+  font-size: 50px;
+  text-align: right;
+  color: pink;
+  margin: 10px 10px;
+  }
+
+.email2 {
+  display: inline-block;
+}
+  .email {
+    height: 40px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+button {
+  font-size: 20px;
+  height: auto;
+  background-color: pink;
+  padding: 9px 26px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid pink;
+  border-radius: 6px;
+  width: 150px;
+}
+
+.fa-instagram {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.derechos {
+ text-align: center;
+ margin-top: 200px;
+
+}
+a {
+ color: pink;
+ margin-left: 20px;
+}
+
+@media (max-width: 800px) {
+.email{
+  width:200px;
+}
+
+button{
+  width:150px;
+  display: inline-block;
+}
+
+  .email2, .mail{
+  display: block;
+  }
+
+ .iconos {
+  text-align: center;
+  margin-top: 35px;
+ }
+
+ .derechos {
+   display: inline-block;
+   text-align: center;
+   margin-top: 40px;
+   width: 100%;
+ }
+
+ .mail {
+   font-size: 35px;
+ }
+}
